@@ -1,0 +1,328 @@
+{
+  "@@locale": "en",
+  "appName": "Safar One",
+  "welcomeBack": "Welcome Back",
+  "createAccount": "Create Account",
+  "signInToContinue": "Sign in to continue",
+  "letsGetYouStarted": "Let's get you started",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "fullNameLabel": "Full Name",
+  "phoneLabel": "Phone Number",
+  "iAmA": "I am a...",
+  "userTypeClient": "Client",
+  "userTypeDriver": "Driver",
+  "vehicleDetailsTitle": "Vehicle Details",
+  "vehicleModelLabel": "Vehicle Model",
+  "licensePlateLabel": "License Plate",
+  "colorLabel": "Color",
+  "yearLabel": "Year",
+  "vehicleTypeLabel": "Vehicle Type",
+  "vehicleTypeSedan": "Sedan",
+  "vehicleTypeSuv": "SUV",
+  "vehicleTypeHatchback": "Hatchback",
+  "vehicleTypeMinivan": "Minivan",
+  "vehicleTypeTukTuk": "Tuk-tuk",
+  "vehicleTypeMotorbike": "Motorbike",
+  "signInButton": "Sign In",
+  "createAccountButton": "Create Account",
+  "alreadyHaveAccount": "Already have an account? Sign in",
+  "dontHaveAccount": "Create an account",
+  "emailValidationError": "Enter email",
+  "passwordValidationError": "Password must be at least 6 characters",
+  "nameValidationError": "Enter name",
+  "phoneValidationError": "Enter phone",
+  "whereTo": "Where to?",
+  "ride": "Ride",
+  "delivery": "Delivery",
+  "cancel": "Cancel",
+  "driverResponding": "Driver responding...",
+  "searchingWaitMessage": "This usually takes a few seconds",
+  "arrivingIn": "Arriving in ~{minutes} min",
+  "@arrivingIn": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "freeWaitTime": "Free wait time: {time}",
+  "@freeWaitTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "meetDriverAtPickup": "Meet driver at the pickup point",
+  "minutesLeft": "{minutes} min left",
+  "@minutesLeft": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "onTheWayToDestination": "On the way to destination",
+  "onMyWay": "On my way",
+  "safety": "Safety",
+  "contact": "Contact",
+  "locationAccessRequired": "Location Access Required",
+  "locationAccessMessage": "We need access to your location to find rides and show your position on the map.",
+  "enableLocation": "Enable Location",
+  "requestRide": "Request {rideName}",
+  "@requestRide": {
+    "placeholders": {
+      "rideName": {
+        "type": "String"
+      }
+    }
+  },
+  "requestDelivery": "Request Delivery ({price})",
+  "@requestDelivery": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseDestination": "Choose destination",
+  "search": "Search",
+  "selectOnMap": "Select on Map",
+  "currentLocation": "Current Location",
+  "pickupLocation": "Pickup Location",
+  "confirmDestination": "Confirm Destination",
+  "routeInfo": "{distance} km · {duration} min",
+  "@routeInfo": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "int"
+      }
+    }
+  },
+  "deliveryDetails": "Delivery Details",
+  "recipientName": "Recipient's Name",
+  "recipientPhone": "Recipient's Phone",
+  "packageDetails": "Package details (e.g., documents)",
+  "fragilePackage": "Fragile Package?",
+  "youAreOnline": "You're online",
+  "youAreOffline": "You're offline",
+  "headingToPickup": "Heading to pickup",
+  "headingToPickupPackage": "Heading to pickup package",
+  "arrivedAtPickup": "Arrived at pickup",
+  "arrivedForPackagePickup": "Arrived for package pickup",
+  "onTrip": "On trip",
+  "deliveringPackage": "Delivering package",
+  "onARide": "On a ride",
+  "tripRequest": "Trip Request",
+  "deliveryRequest": "Delivery Request",
+  "pickup": "PICKUP",
+  "dropoff": "DROPOFF",
+  "package": "PACKAGE",
+  "recipient": "RECIPIENT",
+  "decline": "Decline",
+  "accept": "Accept",
+  "goOnline": "Go Online",
+  "goOffline": "Go Offline",
+  "confirmPackagePickup": "Confirm Package Pickup",
+  "arrivedForPickup": "Arrived for Pickup",
+  "startDelivery": "Start Delivery",
+  "startRide": "Start Ride",
+  "confirmDropOff": "Confirm Drop-off",
+  "completeRide": "Complete Ride",
+  "cancelRide": "Cancel Ride",
+  "passengerInfo": "Passenger Info",
+  "recipientInfo": "Recipient Info",
+  "senderInfo": "Sender Info",
+  "rideHistory": "Ride History",
+  "noPastRides": "No Past Rides",
+  "pastRidesMessage": "Your completed rides will appear here.",
+  "from": "From: {address}",
+  "@from": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "statusSearching": "Searching for driver",
+  "statusDriverOnWay": "Driver on the way",
+  "statusDriverArrived": "Driver has arrived",
+  "statusInProgress": "On the way to destination",
+  "statusCompleted": "Completed",
+  "statusCancelled": "Cancelled",
+  "selectLanguage": "Select Language",
+  "languageEnglish": "English",
+  "languageDari": "دری",
+  "continueButton": "Continue",
+  "rateYourRide": "Rate your ride",
+  "howWasYourTripWith": "How was your trip with {driverName}?",
+  "@howWasYourTripWith": {
+    "placeholders": {
+      "driverName": {
+        "type": "String"
+      }
+    }
+  },
+  "addAComment": "Add a comment...",
+  "submitRating": "Submit Rating",
+  "skip": "Skip",
+  "profilePicture": "Profile Picture",
+  "chooseYourRide": "Choose your ride",
+  "availableNearby": "Available nearby",
+  "deliveryService": "Delivery Service",
+  "motorbikeDelivery": "Motorbike delivery",
+  "deliveryDetailsTitle": "Delivery Details",
+  "recipientNameLabel": "Recipient Name",
+  "recipientNamePlaceholder": "Enter recipient's full name",
+  "recipientNameError": "Name is required",
+  "recipientPhoneLabel": "Phone Number",
+  "recipientPhonePlaceholder": "Enter recipient's phone number",
+  "recipientPhoneError": "Phone number is required",
+  "packageDescriptionLabel": "Package Description",
+  "packageDescriptionPlaceholder": "Describe what you're sending",
+  "packageDescriptionError": "Package description is required",
+  "fragilePackageLabel": "Fragile Package",
+  "handleWithCare": "Handle with extra care",
+  "requestDeliveryButton": "Request Delivery • {price}",
+  "@requestDeliveryButton": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "settingUpDriver": "Setting up your driver profile...",
+  "weNeedLocationMatch": "We need your location to match you with riders.",
+  "locationDetails": "Getting location details...",
+  "tripCompleted": "Trip Completed!",
+  "finalPrice": "Final Price",
+  "close": "Close",
+  "navigateTo": "Navigate to {destinationName}",
+  "@navigateTo": {
+    "placeholders": {
+      "destinationName": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseNavigationApp": "Choose your navigation app",
+  "googleMaps": "Google Maps",
+  "appleMaps": "Apple Maps",
+  "yandexMaps": "Yandex Maps",
+  "errorOpeningNavigation": "Error opening navigation: {error}",
+  "@errorOpeningNavigation": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "couldNotOpenGoogleMaps": "Could not open Google Maps: {error}",
+  "@couldNotOpenGoogleMaps": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appleMapsNotAvailable": "Apple Maps not available",
+  "couldNotOpenAppleMaps": "Could not open Apple Maps: {error}",
+  "@couldNotOpenAppleMaps": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "navigateTo": "Navigate to {targetName}",
+   "@navigateTo": {
+     "description": "Button text to navigate to a given location",
+     "placeholders": {
+       "targetName": {
+         "type": "String",
+         "example": "Home"
+       }
+     }
+   },
+   "searchingLocations": "Searching locations...",
+   "moveMapToSelectLocation": "Move the map to select a location",
+   "@moveMapToSelectLocation": {
+     "description": "Hint shown when user should move the map to pick a location"
+   },
+   "destination": "Destination",
+   "profile": "Profile",
+   "editProfile": "Edit Profile",
+   "saveChanges": "Save Changes",
+   "logout": "Logout",
+   "deleteAccount": "Delete Account",
+   "deleteAccountConfirmationTitle": "Delete Account?",
+   "deleteAccountConfirmationMessage": "Are you sure you want to permanently delete your account? This action cannot be undone.",
+   "actionDelete": "Delete",
+   "profileUpdateSuccess": "Profile updated successfully!",
+   "profileUpdateFailed": "Failed to update profile",
+   "accountDeletionSuccess": "Account deleted successfully.",
+   "accountDeletionFailed": "Failed to delete account.",
+   "whereWouldYouLikeToGo": "Where would you like to go?",
+   "searchForDestination": "Search for a destination",
+   "personalInformation": "Personal Information",
+   "tapToChangePhoto": "Tap to change photo",
+   "locationServicesDisabled": "Location Services Disabled",
+   "pleaseEnableLocation": "Please enable location services to receive ride requests.",
+   "settings": "Settings",
+   "locationPermission": "Location Permission",
+   "thisAppNeedsLocation": "This app needs location permission to function. Please grant permission in settings.",
+   "byCreatingAccountYouAgree": "By creating an account, you agree to our ",
+   "privacyPolicy": "Privacy Policy",
+   "legal": "Legal information",
+   "privacyPolicyDescription": "Review the terms of data processing",
+   "locationAccessTitle": "Location Access",
+   "locationAccessMessageClient": "Safar One collects location data to find nearby drivers for you, set routes, and track your trip. This is necessary for the service to work.",
+   "locationAccessMessageDriver": "Safar One collects location data to offer you orders nearby, set routes, and show your location to the customer. It is necessary for work.",
+   "locationDataUsage": "How we use your location:",
+   "locationUsageMatching": "Match you with nearby drivers",
+   "locationUsageTracking": "Track your ride in real-time",
+   "locationUsageSharing": "Share your location with your driver",
+   "locationUsageRouting": "Calculate optimal routes",
+  "privacyPolicyPrefix": "Read our ",
+  "whereToGo": "Where to?",
+  "selectRideType": "Select Ride Type",
+  "searchingForDrivers": "Searching for drivers...",
+  "pleaseWait": "Please wait...",
+  "minAway": "{minutes} min away",
+  "@minAway": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "driverHasArrived": "Driver has arrived",
+  "minRemaining": "{minutes} min remaining",
+  "@minRemaining": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "locationPermissionRequired": "Location Permission Required",
+  "pleaseEnableLocationAccess": "Please enable location access to use this feature.",
+  "rideAccepted": "Ride Accepted",
+  "driverIsOnTheWay": "Driver is on the way",
+  "okay": "Okay",
+  "areYouSureYouWantToCancelThisRide": "Are you sure you want to cancel this ride?",
+  "no": "No",
+  "yesCancel": "Yes, Cancel",
+  "receivingRideRequests": "Receiving ride requests",
+  "notReceivingRequests": "Not receiving requests",
+  "newRideRequest": "New Ride Request",
+  "arriveAtPickup": "Arrive at Pickup",
+  "profileUpdatedSuccessfully": "Profile updated successfully",
+  "save": "Save",
+  "logoutConfirmation": "Are you sure you want to logout?",
+  "retry": "Retry"
+}

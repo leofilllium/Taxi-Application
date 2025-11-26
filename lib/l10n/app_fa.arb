@@ -1,0 +1,239 @@
+{
+  "@@locale": "fa",
+  "appName": "سفر",
+  "welcomeBack": "خوش آمدید",
+  "createAccount": "ایجاد حساب کاربری",
+  "signInToContinue": "برای ادامه وارد شوید",
+  "letsGetYouStarted": "بیایید شروع کنیم",
+  "emailLabel": "ایمیل",
+  "passwordLabel": "رمز عبور",
+  "fullNameLabel": "نام کامل",
+  "phoneLabel": "شماره تلفن",
+  "iAmA": "من یک ... هستم",
+  "userTypeClient": "مشتری",
+  "userTypeDriver": "راننده",
+  "vehicleDetailsTitle": "مشخصات وسیله نقلیه",
+  "vehicleModelLabel": "مدل وسیله نقلیه",
+  "licensePlateLabel": "پلاک",
+  "colorLabel": "رنگ",
+  "yearLabel": "سال",
+  "vehicleTypeLabel": "نوع وسیله نقلیه",
+  "vehicleTypeSedan": "سدان",
+  "vehicleTypeSuv": "شاسی بلند",
+  "vehicleTypeHatchback": "هاچ‌بک",
+  "vehicleTypeMinivan": "مینی‌ون",
+  "vehicleTypeTukTuk": "توک-توک",
+  "vehicleTypeMotorbike": "موتورسیکلت",
+  "signInButton": "ورود",
+  "createAccountButton": "ایجاد حساب",
+  "alreadyHaveAccount": "حساب کاربری دارید؟ وارد شوید",
+  "dontHaveAccount": "ایجاد حساب کاربری",
+  "emailValidationError": "ایمیل را وارد کنید",
+  "passwordValidationError": "رمز عبور باید حداقل ۶ کاراکتر باشد",
+  "nameValidationError": "نام را وارد کنید",
+  "phoneValidationError": "شماره تلفن را وارد کنید",
+  "whereTo": "کجا می‌روید؟",
+  "ride": "سفر",
+  "delivery": "تحویل",
+  "cancel": "لغو",
+  "driverResponding": "در حال پاسخگویی راننده...",
+  "searchingWaitMessage": "این معمولاً چند ثانیه طول می‌کشد",
+  "arrivingIn": "رسیدن در حدود {minutes} دقیقه",
+  "freeWaitTime": "زمان انتظار رایگان: {time}",
+  "meetDriverAtPickup": "راننده را در محل سوار شدن ملاقات کنید",
+  "minutesLeft": "{minutes} دقیقه باقی مانده",
+  "onTheWayToDestination": "در راه به مقصد",
+  "onMyWay": "در راهم",
+  "safety": "ایمنی",
+  "contact": "تماس",
+  "locationAccessRequired": "دسترسی به موقعیت مکانی لازم است",
+  "locationAccessMessage": "برای یافتن سفر و نمایش موقعیت شما روی نقشه، به دسترسی به موقعیت مکانی شما نیاز داریم.",
+  "enableLocation": "فعال کردن موقعیت مکانی",
+  "requestRide": "درخواست {rideName}",
+  "requestDelivery": "درخواست تحویل ({price})",
+  "chooseDestination": "انتخاب مقصد",
+  "search": "جستجو",
+  "selectOnMap": "انتخاب روی نقشه",
+  "currentLocation": "موقعیت فعلی",
+  "pickupLocation": "محل سوار شدن",
+  "confirmDestination": "تایید مقصد",
+  "routeInfo": "{distance} کیلومتر · {duration} دقیقه",
+  "deliveryDetails": "جزئیات تحویل",
+  "recipientName": "نام گیرنده",
+  "recipientPhone": "تلفن گیرنده",
+  "packageDetails": "جزئیات بسته (مثلا اسناد)",
+  "fragilePackage": "بسته شکستنی است؟",
+  "youAreOnline": "شما آنلاین هستید",
+  "youAreOffline": "شما آفلاین هستید",
+  "headingToPickup": "در راه به مبدا",
+  "headingToPickupPackage": "در راه برای گرفتن بسته",
+  "arrivedAtPickup": "به مبدا رسید",
+  "arrivedForPackagePickup": "برای گرفتن بسته رسید",
+  "onTrip": "در سفر",
+  "deliveringPackage": "در حال تحویل بسته",
+  "onARide": "در حال سفر",
+  "tripRequest": "درخواست سفر",
+  "deliveryRequest": "درخواست تحویل",
+  "pickup": "مبدا",
+  "dropoff": "مقصد",
+  "package": "بسته",
+  "recipient": "گیرنده",
+  "decline": "رد کردن",
+  "accept": "پذیرفتن",
+  "goOnline": "آنلاین شوید",
+  "goOffline": "آفلاین شوید",
+  "confirmPackagePickup": "تایید گرفتن بسته",
+  "arrivedForPickup": "به مبدا رسیدم",
+  "startDelivery": "شروع تحویل",
+  "startRide": "شروع سفر",
+  "confirmDropOff": "تایید تحویل",
+  "completeRide": "پایان سفر",
+  "cancelRide": "لغو سفر",
+  "passengerInfo": "اطلاعات مسافر",
+  "recipientInfo": "اطلاعات گیرنده",
+  "senderInfo": "اطلاعات فرستنده",
+  "rideHistory": "تاریخچه سفرها",
+  "noPastRides": "سفر گذشته‌ای وجود ندارد",
+  "pastRidesMessage": "سفرهای تکمیل شده شما در اینجا نمایش داده می‌شود.",
+  "from": "از: {address}",
+  "statusSearching": "در جستجوی راننده",
+  "statusDriverOnWay": "راننده در راه است",
+  "statusDriverArrived": "راننده رسیده است",
+  "statusInProgress": "در راه به مقصد",
+  "statusCompleted": "تکمیل شده",
+  "statusCancelled": "لغو شده",
+  "selectLanguage": "زبان را انتخاب کنید",
+  "languageEnglish": "English",
+  "languageDari": "دری",
+  "continueButton": "ادامه",
+  "rateYourRide": "سفر خود را ارزیابی کنید",
+  "howWasYourTripWith": "سفر شما با {driverName} چگونه بود؟",
+  "@howWasYourTripWith": {
+    "placeholders": {
+      "driverName": {
+        "type": "String"
+      }
+    }
+  },
+  "addAComment": "نظر خود را اضافه کنید...",
+  "submitRating": "ثبت ارزیابی",
+  "skip": "رد کردن",
+  "profilePicture": "تصویر پروفایل",
+  "chooseYourRide": "سفر خود را انتخاب کنید",
+  "availableNearby": "در این نزدیکی موجود است",
+  "deliveryService": "خدمات تحویل",
+  "motorbikeDelivery": "تحویل با موتورسیکلت",
+  "deliveryDetailsTitle": "جزئیات تحویل",
+  "recipientNameLabel": "نام گیرنده",
+  "recipientNamePlaceholder": "نام کامل گیرنده را وارد کنید",
+  "recipientNameError": "نام الزامی است",
+  "recipientPhoneLabel": "شماره تلفن",
+  "recipientPhonePlaceholder": "شماره تلفن گیرنده را وارد کنید",
+  "recipientPhoneError": "شماره تلفن الزامی است",
+  "packageDescriptionLabel": "توضیحات بسته",
+  "packageDescriptionPlaceholder": "توضیح دهید چه چیزی ارسال می‌کنید",
+  "packageDescriptionError": "توضیحات بسته الزامی است",
+  "fragilePackageLabel": "بسته شکستنی",
+  "handleWithCare": "با احتیاط حمل شود",
+  "requestDeliveryButton": "درخواست تحویل • {price}",
+  "@requestDeliveryButton": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "settingUpDriver": "تنظیم پروفایل راننده تان...",
+  "weNeedLocationMatch": "ما به موقعیت شما نیاز داریم تا شما را با سوارکاران مطابقت دهد.",
+  "locationDetails": "دریافت جزئیات موقعیت...",
+  "tripCompleted": "سفر تکمیل شد!",
+  "finalPrice": "قیمت نهایی",
+  "close": "بستن",
+  "navigateTo": "مسیریابی به {destinationName}",
+  "@navigateTo": {
+    "placeholders": {
+      "destinationName": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseNavigationApp": "اپلیکیشن مسیریابی خود را انتخاب کنید",
+  "googleMaps": "نقشه گوگل",
+  "appleMaps": "نقشه اپل",
+  "yandexMaps": "نقشه یاندکس",
+  "errorOpeningNavigation": "خطا در باز کردن مسیریاب: {error}",
+  "@errorOpeningNavigation": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "couldNotOpenGoogleMaps": "امکان باز کردن نقشه گوگل وجود ندارد: {error}",
+  "@couldNotOpenGoogleMaps": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "appleMapsNotAvailable": "نقشه اپل در دسترس نیست",
+  "couldNotOpenAppleMaps": "امکان باز کردن نقشه اپل وجود ندارد: {error}",
+  "@couldNotOpenAppleMaps": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "navigateTo": "رفتن به {targetName}",
+   "@navigateTo": {
+     "description": "دکمه برای رفتن به یک مکان مشخص",
+     "placeholders": {
+       "targetName": {
+         "type": "String",
+         "example": "خانه"
+       }
+     }
+   },
+   "searchingLocations": "جستجوی مکان ها...",
+   "moveMapToSelectLocation": "نقشه را حرکت دهید تا مکان را انتخاب کنید",
+   "@moveMapToSelectLocation": {
+     "description": "راهنما برای انتخاب مکان با حرکت دادن نقشه"
+   },
+   "destination": "مقصد",
+   "profile": "پروفایل",
+   "editProfile": "ویرایش پروفایل",
+   "saveChanges": "ذخیره تغییرات",
+   "logout": "خروج",
+   "deleteAccount": "حذف حساب کاربری",
+   "deleteAccountConfirmationTitle": "حذف حساب کاربری؟",
+   "deleteAccountConfirmationMessage": "آیا مطمئن هستید که می‌خواهید حساب کاربری خود را برای همیشه حذف کنید؟ این عمل قابل بازگشت نیست.",
+   "actionDelete": "حذف",
+   "profileUpdateSuccess": "پروفایل با موفقیت به‌روزرسانی شد!",
+   "profileUpdateFailed": "به‌روزرسانی پروفایل ناموفق بود",
+   "accountDeletionSuccess": "حساب کاربری با موفقیت حذف شد.",
+   "accountDeletionFailed": "حذف حساب کاربری ناموفق بود.",
+   "whereWouldYouLikeToGo": "شما میخواهید کجا بروید؟",
+   "searchForDestination": "جستجوی مقصد",
+   "personalInformation": "معلومات شخصی",
+   "tapToChangePhoto": "برای تغییر عکس ضربه بزنید",
+   "locationServicesDisabled": "خدمات موقعیت غیرفعال شده است",
+   "pleaseEnableLocation": "لطفاً خدمات موقعیت را برای دریافت درخواست های سواری فعال کنید.",
+   "settings": "تنظیمات",
+   "locationPermission": "اجازه موقعیت",
+   "thisAppNeedsLocation": "این اپلیکیشن برای فعالیت نیاز به اجازه موقعیت دارد. لطفاً در تنظیمات اجازه بدهید.",
+   "byCreatingAccountYouAgree": "با ایجاد یک حساب کاربری ، شما با ما موافقت می کنید",
+   "privacyPolicy": "سیاست حفظ حریم خصوصی",
+   "legal": "اطلاعات حقوقی",
+   "privacyPolicyDescription": "بررسی شرایط پردازش داده ها",
+   "locationAccessTitle": "دسترسی به مکان",
+   "locationAccessMessageClient": "Safar One داده های مکان را جمع آوری می کند تا رانندگان نزدیک را برای شما پیدا کند ، مسیرها را تعیین کند و سفر شما را ردیابی کند. این برای کار سرویس ضروری است.",
+   "locationAccessMessageDriver": "Safar One داده های مکان را جمع آوری می کند تا سفارشات نزدیک را به شما ارائه دهد ، مسیرها را تنظیم کند و مکان خود را به مشتری نشان دهد. برای کار ضروری است.",
+   "locationDataUsage": "چگونه از موقعیت مکانی شما استفاده می‌کنیم:",
+   "locationUsageMatching": "شما را با رانندگان نزدیک مطابقت دهیم",
+   "locationUsageTracking": "سفر شما را به صورت زنده ردیابی کنیم",
+   "locationUsageSharing": "موقعیت شما را با راننده به اشتراک بگذاریم",
+   "locationUsageRouting": "مسیرهای بهینه را محاسبه کنیم",
+   "privacyPolicyPrefix": "بخوانید "
+}
