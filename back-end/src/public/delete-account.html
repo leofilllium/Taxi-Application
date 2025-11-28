@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete Account - Safar One</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        max-width: 700px;
+        margin: auto;
+        line-height: 1.6;
+      }
+      h1 {
+        color: #d9534f;
+      }
+      h2 {
+        color: #333;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      input,
+      textarea,
+      button {
+        padding: 10px;
+        font-size: 1rem;
+      }
+      button {
+        background: #d9534f;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #c9302c;
+      }
+      #response {
+        margin-top: 15px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Safar One Account Deletion Request</h1>
+    <p>
+      This page is managed by <strong>Safar One Team</strong> (Developer:
+      <strong>Rafis Kabirov</strong>).
+    </p>
+
+    <h2>How to request account deletion</h2>
+    <ol>
+      <li>Enter your <strong>User ID</strong> in the form below.</li>
+      <li>Optionally provide a reason for deletion.</li>
+      <li>Click <strong>Submit Request</strong>.</li>
+      <li>
+        Our team will verify your identity and delete your account within
+        <strong>7 business days</strong>.
+      </li>
+      <li>
+        You will receive a confirmation email once the deletion is complete.
+      </li>
+    </ol>
+
+    <form id="deleteForm">
+      <label>User ID:<br /><input name="userId" required /></label>
+      <label>Reason:<br /><textarea name="reason"></textarea></label>
+      <button type="submit">Submit Request</button>
+    </form>
+
+    <p id="response"></p>
+
+    <h2>Data Deletion Policy</h2>
+    <p><strong>Data that will be deleted:</strong></p>
+    <ul>
+      <li>Profile information (name, email, phone number)</li>
+      <li>Booking and payment history</li>
+      <li>Saved preferences and travel data</li>
+    </ul>
+
+    <p><strong>Data that may be retained temporarily:</strong></p>
+    <ul>
+      <li>
+        Transaction data required by law (for tax and billing purposes) may be
+        kept for up to <strong>90 days</strong>.
+      </li>
+    </ul>
+
+    <p>
+      After this period, all data will be permanently removed from our servers.
+    </p>
+
+    <script src="./delete.js"></script>
+  </body>
+</html>

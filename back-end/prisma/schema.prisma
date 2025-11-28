@@ -1,0 +1,119 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String            @id @default(uuid())
+  email            String            @unique
+  password         String
+  name             String
+  userType         String            @map("user_type")
+  phone            String
+  isActive         Boolean           @default(true)
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+  deletionRequests DeletionRequest[]
+  driver           Driver?           @relation("UserDriver")
+  ratings          Rating[]          @relation("FromUser")
+  rides            Ride[]            @relation("ClientRides")
+}
+
+model Driver {
+  id              String   @id
+  name            String
+  email           String
+  phone           String
+  profileImageUrl String?  @map("profile_image_url")
+  latitude        Float    @default(0)
+  longitude       Float    @default(0)
+  bearing         Float    @default(0)
+  isAvailable     Boolean  @default(false)
+  rating          Float    @default(5)
+  totalRides      Int      @default(0)
+  vehicleType     String   @map("vehicle_type")
+  licensePlate    String   @map("license_plate")
+  color           String
+  model           String
+  year            Int
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  user            User     @relation("UserDriver", fields: [id], references: [id])
+  ratings         Rating[] @relation("ToUser")
+  rides           Ride[]   @relation("DriverRides")
+}
+
+model Ride {
+  id                   String    @id @default(uuid())
+  clientId             String    @map("client_id")
+  driverId             String?   @map("driver_id")
+  pickupLatitude       Float     @map("pickup_latitude")
+  pickupLongitude      Float     @map("pickup_longitude")
+  destinationLatitude  Float     @map("destination_latitude")
+  destinationLongitude Float     @map("destination_longitude")
+  pickupAddress        String    @map("pickup_address")
+  destinationAddress   String    @map("destination_address")
+  rideType             String    @default("standard") @map("ride_type")
+  paymentMethod        String    @default("cash") @map("payment_method")
+  notes                String?
+  status               String    @default("pending")
+  estimatedPrice       Float     @map("estimated_price")
+  finalPrice           Float?    @map("final_price")
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+  acceptedAt           DateTime? @map("accepted_at")
+  completedAt          DateTime? @map("completed_at")
+  startedAt            DateTime? @map("started_at")
+  cancelledAt          DateTime? @map("cancelled_at")
+  cancellationReason   String?   @map("cancellation_reason")
+  driverArrivedAt      DateTime? @map("driver_arrived_at")
+  distance             Float?
+  duration             Int?
+  routePolyline        String?   @map("route_polyline")
+  routeSteps           Json?     @map("route_steps")
+  eta                  Int?
+  serviceType          String    @default("ride") @map("service_type")
+  recipientName        String?   @map("recipient_name")
+  recipientPhone       String?   @map("recipient_phone")
+  packageDetails       String?   @map("package_details")
+  isFragile            Boolean?  @default(false) @map("is_fragile")
+  ratings              Rating[]
+  client               User      @relation("ClientRides", fields: [clientId], references: [id])
+  driver               Driver?   @relation("DriverRides", fields: [driverId], references: [id])
+
+  @@index([clientId], map: "Ride_client_id_fkey")
+  @@index([driverId], map: "Ride_driver_id_fkey")
+}
+
+model Rating {
+  id         String   @id @default(uuid())
+  rideId     String   @map("ride_id")
+  fromUserId String   @map("from_user_id")
+  toUserId   String   @map("to_user_id")
+  rating     Int
+  comment    String?
+  createdAt  DateTime @default(now())
+  fromUser   User     @relation("FromUser", fields: [fromUserId], references: [id])
+  ride       Ride     @relation(fields: [rideId], references: [id])
+  toUser     Driver   @relation("ToUser", fields: [toUserId], references: [id])
+
+  @@index([fromUserId], map: "Rating_from_user_id_fkey")
+  @@index([rideId], map: "Rating_ride_id_fkey")
+  @@index([toUserId], map: "Rating_to_user_id_fkey")
+}
+
+model DeletionRequest {
+  id          Int       @id @default(autoincrement())
+  userId      String
+  reason      String?
+  status      String    @default("pending")
+  createdAt   DateTime  @default(now())
+  processedAt DateTime?
+  user        User      @relation(fields: [userId], references: [id])
+
+  @@index([userId], map: "DeletionRequest_userId_fkey")
+}
