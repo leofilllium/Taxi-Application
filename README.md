@@ -62,6 +62,15 @@
 *Реальное время отслеживание с детальной информацией о поездке*
 </div>
 
+### Остальные скриншоты
+<div align="center">
+<img width="280" alt="IMG_2413 (1)" src="https://github.com/user-attachments/assets/a27a681b-3b24-45e6-8716-6c6a5dd0f7b0" /><img width="280" alt="IMG_2415" src="https://github.com/user-attachments/assets/28eed23a-3586-4416-beff-48af37a41aae" /><img width="280" alt="IMG_2416" src="https://github.com/user-attachments/assets/d0c4f9d6-ed92-4d58-84d9-10a9a4e6001b" /><img width="280" alt="IMG_2389" src="https://github.com/user-attachments/assets/374fe81c-706f-44bc-b18d-cc21d5fda885" />
+<img width="280" alt="IMG_2388" src="https://github.com/user-attachments/assets/8583253c-fd96-4c6d-8c33-27eb03db1a4c" /><img width="280" alt="IMG_2386" src="https://github.com/user-attachments/assets/769abc5f-9108-4c52-8d49-355261c94726" /><img width="280" alt="IMG_2380" src="https://github.com/user-attachments/assets/cc91e572-a20d-4197-bd75-7863cf23d316" />
+
+
+
+</div>
+
 ## 🛠 Технологический стек
 
 ### 📱 Фронтенд
