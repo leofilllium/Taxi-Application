@@ -143,7 +143,7 @@ JWT_SECRET=JWT_SECRET
 GOOGLE_MAPS_API_KEY=GOOGLE_MAPS_API_KEY
 PORT=PORT
 DATABASE_URL=DATABASE_URL
-``
+```
 
 ### Real-time Features
 - 📍 Обновление местоположения водителя
