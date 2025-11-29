@@ -137,7 +137,7 @@ cp .env.example .env
 npm start
 ```
 
-#Настройка .env
+### Настройка .env
 ```env
 JWT_SECRET=JWT_SECRET
 GOOGLE_MAPS_API_KEY=GOOGLE_MAPS_API_KEY
